@@ -8,6 +8,9 @@ import java.util.stream.Stream;
 public class PassengerSeat {
 	public static void main(String[] args) {
 		String str = "1A 3B 2C 2A 3B 50J 45A 50A 50B 50C 9A 50D 50E 50F 50G 50H 50K 1B 1C 1E 1F 1G";
+		/*Scanner input = new Scanner(System.in);
+		System.out.println("Enter the reserved seats: ");
+		String str = input.nextLine();*/
 		System.out.println(checkSeats(str));
 	}
 
