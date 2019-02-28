@@ -16,7 +16,7 @@ public class PassengerSeat {
 		// Declaration based on assumptions mentioned in problem
 		int numberRows = 50;
 		int perRow = 10;
-		int maxThree = (perRow * numberRows) / 3;
+		int maxThree = numberRows * 3;
 		int remainingMaxThree = 0;
 
 		String upperCase = string.toUpperCase();
